@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4a4d8a5d-5aa4-e812-6f77-6526b07d14d1}</ProjectGuid>
+    <ProjectGuid>{508fdef8-12ce-c4ba-85a6-59a5e90ddab0}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -351,10 +351,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>D:\unity\Days After Test\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="Zenject-usage">
-     <HintPath>D:\unity\Days After Test\Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -729,25 +729,25 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
-     <HintPath>D:\unity\Days After Test\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
-     <HintPath>D:\unity\Days After Test\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\unity\Days After Test\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\unity\Days After Test\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\unity\DaysAfterTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zenject-TestFramework.csproj">
-      <Project>{ed5afce0-d817-f4b9-dcd0-24587f41f318}</Project>
+      <Project>{d16ff6ff-645a-35cf-31a0-a0684a9d225a}</Project>
       <Name>Zenject-TestFramework</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject.csproj">
-      <Project>{f988270c-4329-7e67-8d9a-f122fba72731}</Project>
+      <Project>{5a293bd8-00ae-a093-ec7e-cb13bfbdca6a}</Project>
       <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
