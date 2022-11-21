@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7063379750655933700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7063379750655933707}
+  - component: {fileID: 7063379750655933706}
+  - component: {fileID: 7063379750655933704}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7063379750655933707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063379750655933700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7063379750655933706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063379750655933700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: c86739a9c30cd784f8cea49c23494041, type: 2}
+  _monoInstallers:
+  - {fileID: 7063379750655933704}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &7063379750655933704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063379750655933700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6401dcaa7066ae4b8dd8803b9dc854c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controllerSettings:
+    controllerBase: {fileID: 871323822400752203, guid: cbe387e70a64e54489ee7049a13e9761, type: 3}
+    mainManager: {fileID: 7594107708091543191, guid: 69e76cd40a1636f48b786af4eae7235a, type: 3}
+    mainUIController: {fileID: 3895298230138965867, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b, type: 3}
+    loader: {fileID: 5986398837191621233, guid: 8b9aa061ed617d94fa8ce8ebf601398a, type: 3}
+  _levelSettings:
+    level0: {fileID: 7844492721108485473, guid: 0bbde9ab29f541b4e8b9cf501413b48d, type: 3}
+    level1: {fileID: 7844492721108485473, guid: efbc8dbb5c647ba49b4ea8f2c0a1a833, type: 3}
+    level2: {fileID: 7844492721108485473, guid: 188c865ffbb27bc489c16c5f17952476, type: 3}

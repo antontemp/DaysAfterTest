@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97946409949c54448737321f3376a3d, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  _gameSettings:
+    StartLevelId: 1
+  prefabs:
+    player: {fileID: 2396564159281851830, guid: 76fb9d99b58a114469cc2ccb55586318, type: 3}
+    moverEnemy: {fileID: 4070210453413419730, guid: fd36528714c09e142bfc0599f8ad1dcd, type: 3}
+    watcherEnemy: {fileID: 4070210453413419730, guid: 01ca9f7249dbf5b4bb264d9457050c8b, type: 3}
+    attackerEnemy: {fileID: 4070210453413419730, guid: 1bfa7f0eca427bf48b5c76de02e28b5c, type: 3}
+    fireBullet: {fileID: 5518796491194036704, guid: 7f9986bdaed4fe644a1efbb0c921c77f, type: 3}
+  _controllerSettings:
+    controllerBase: {fileID: 871323822400752203, guid: cbe387e70a64e54489ee7049a13e9761, type: 3}
+    mainManager: {fileID: 7594107708091543191, guid: 69e76cd40a1636f48b786af4eae7235a, type: 3}
+    mainUIController: {fileID: 3895298230138965867, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b, type: 3}
+    loader: {fileID: 5986398837191621233, guid: 8b9aa061ed617d94fa8ce8ebf601398a, type: 3}
+  _levelSettings:
+    level0: {fileID: 7844492721108485473, guid: 0bbde9ab29f541b4e8b9cf501413b48d, type: 3}
+    level1: {fileID: 7844492721108485473, guid: efbc8dbb5c647ba49b4ea8f2c0a1a833, type: 3}
+    level2: {fileID: 7844492721108485473, guid: 188c865ffbb27bc489c16c5f17952476, type: 3}
